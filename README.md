@@ -9,6 +9,8 @@ config.pvs  config.pvs_bk  parallels_image.hdd
 ```
 
 # Usage
+0. If you have a vmware image file, you should convert it to pvm format.
+   - `$ /Applications/Parallels\ Desktop.app/Contents/MacOS/prl_convert /path/to/vmx/vmware_image.vmx  --dst=/path/to/dest/dir --reg=n`
 1. Download a pvmconfigsafer.sh
 2. Change the permission
    - `$ chmod +x pvmconfigsafer.sh`
